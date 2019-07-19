@@ -1,0 +1,380 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: "微软雅黑";
+}
+a,span{
+	text-decoration:none;
+	color:#333333;
+}
+a:hover{
+	color:#ff4040;
+}
+input{
+	outline:medium;
+}
+ul,li{
+	list-style: none;
+}
+
+
+
+
+/* 公共 */
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+
+
+/* 容器 */
+.container{
+	width:100%;
+	height:3000px;
+	background:#f5f5f5;
+}
+
+/* 头部 */
+#header{
+	width:100%;
+	height:31px;
+	background: #f4f4f4;
+}
+#header .h-content{
+	width:1070px;
+	height:30px;
+	margin:0 auto;
+	text-align: right;
+}
+#header .h-content a{
+	line-height: 30px;
+	margin-left:20px;
+}
+#header .h-content a:hover{
+	color:#ff4040;
+}
+#header .h-content a:first-child{
+	margin-left:0px;
+}
+#header .h-content a:nth-child(3){
+	margin-left:5px;
+	color:#ff4040;
+}
+
+
+/* 导航 */
+#nav{
+	width:100%;
+	height:180px;
+	background:#fff;
+}
+#nav .n-content{
+	width:1070px;
+	height:180px;
+	margin:0 auto;
+}
+#nav .n-content img{
+	float:left;
+}
+#nav .n-content img:nth-child(2){
+	margin-top:29px;
+}
+#nav .n-content input{
+	width:508px;
+	height:38px;
+	border:1px solid #e2e2e2;
+	border-radius:25px;
+	text-indent:20px;
+	float:right;
+	margin-top:52px;
+	margin-right:138px;
+}
+#nav .n-content input:hover{
+	border:1px solid #ff4040;
+}
+#nav .n-content span{
+	float:right;
+	margin-top:10px;
+	margin-right: 236px;
+}
+#nav .n-content span a{
+	line-height: 19px;
+	margin-right:10px;
+	color:#aaaaaa;
+}
+#nav .n-content span a:hover{
+	color:#333333;
+}
+#nav .n-content button{
+	width:122px;
+	height:40px;
+	border:1px solid #e2e2e2;
+	border-radius:25px;
+	background: #fcfcfc;
+	color:#333333;
+	float:right;
+	margin-left:500px;
+	cursor: pointer;
+	margin-top:-73px;
+}
+#nav .n-content ul{
+	width: 1070px;
+	height: 40px;
+	float:left;
+	
+}
+#nav .n-content li{
+	float:left;
+	line-height: 40px;
+	text-align: center;
+	margin:0 15px;
+	cursor:pointer;
+}
+
+#nav .n-content li:first-child{
+	width:140px;
+	height:40px;
+	background:#ff4040;
+	margin:0;
+}
+#nav .n-content li:first-child a{
+	color:#fff;
+	font-size: 16px;
+	cursor:pointer;
+}
+
+/* 内容区 */
+#content{
+	width:100%;
+}
+#content img:nth-child(2),#content img:nth-child(3),#content img:nth-child(4){
+	display: none;
+}
+#content .haibao .hb-btn{
+	text-align: center;
+	position: relative;
+	top:-32px;
+}
+#content .haibao button{
+	width:110px;
+	height:40px;
+	cursor:pointer;
+	background: #fff;
+	border:0px;
+	color:#333333;
+	margin-right: 10px;
+}
+#content .haibao button:hover{
+	background: #333;
+	color:#fff;
+}
+#content .c-content {
+	width:1070px;
+	margin:0 auto;
+}
+#content .c-content .superdp{
+	width:1050px;
+	height:440px;
+	margin-top:20px;
+	border:10px solid #f14048;
+}
+#content .c-content .superdp li{
+	width:210px;
+	height:220px;
+	float:left;
+	text-align: center;
+	cursor:pointer;
+}
+#content .c-content .superdp li:first-child{
+	background:#ec3840;
+}
+#content .c-content .superdp li:first-child img{
+	margin-left: 20px;
+}
+#content .c-content .superdp li:first-child span{
+	margin-left: 10px;
+	margin-top:-10px;
+	font-size: 14px;
+	height: 30px;
+    float: left;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+    cursor: pointer;
+}
+#content .c-content .superdp .xhx{
+	width:30px;
+	border-bottom:3px solid #fff;
+	float:left;
+	margin-top:25px;
+	margin-left:-140px;
+}
+#content .c-content .superdp li:first-child p{
+	color:#ffffff;
+	float:left;
+	margin-top:25px;
+	margin-left:-27px;
+	font-size: 16px;
+    line-height: 26px;
+}
+#content .c-content .superdp .time{
+	float:left;
+	margin-top:10px;
+	margin-left:25px;
+}
+#content .c-content .superdp .time-bg{
+	width:35px;
+	height:35px;
+	background:#161616;
+	color:#fff;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	line-height: 35px;
+	font-size:20px;
+	font-weight: 700;
+	border-radius:10px;
+}
+#content .c-content .superdp  .time i{
+	color:#fff;
+	font-size:16px;
+	font-weight:700;
+	float:left;
+	position:relative;
+	top:7px;
+	left:-8px;
+	border-bottom:0px;
+	transform: rotate(-15deg);
+}
+
+#content .c-content .superdp img{
+	width:110px;
+	height:110px;
+	margin-top:18px;
+}
+
+#content .c-content .superdp span{
+	width:153px;
+	height: 30px;
+	overflow:hidden;
+	float:left;
+	margin-left:30px;
+	line-height: 40px;
+}
+
+#content .c-content .pbar{
+	width:150px;
+	height:6px;
+	border-radius:25px;
+	background:#e2e2e2;
+	float:left;
+	margin:10px 30px;
+}
+#content .c-content .pb{
+	width:30%;
+	height:6px;
+	border-radius:25px;
+	background: #e42d35;
+}
+#content .c-content .superdp p{
+	font-family: Tahoma,"Microsoft YaHei";
+    color: #e50113;
+    font-weight: bold;
+    font-size: 14px;
+}
+#content .c-content .superdp p del{
+	font-size: 12px;
+    color: #999;
+    font-weight: normal;
+}
+
+/* 超级品牌部分 */
+#content .c-content .superbrand{
+	width:530px;
+	height:362px;
+	background: #fff;
+	float:left;
+	margin-top:20px;
+}
+#content .c-content .superbrand h1{
+	margin:15px 5px 5px 20px;
+	line-height:40px;
+    font-size: 26px;
+    color: #493188;
+    float:left;
+}
+#content .c-content .superbrand span{
+	color:#493188;
+	font-size: 16px;
+	line-height: 75px;
+}
+#content .c-content .superbrand .super-pp{
+	width:490px;
+	height:130px;
+	background-image: url(images/pp1.jpg);
+	margin-left: 20px;
+	margin-top:-10px;
+	margin-bottom:30px;
+	cursor:pointer;
+}
+#content .c-content .superbrand .super-zz{
+	width:100%;
+	height:100%;
+	z-index: 2;
+	background:rgba(0,0,0,0.4);
+}
+#content .c-content .superbrand img{
+	width:50px;
+	height: 50px;
+	border-radius:50%;
+	margin-top:40px;
+	margin-left: 20px;
+	float:left;
+}
+#content .c-content .superbrand h2{
+	font-size: 18px;
+    color: #fff;
+    line-height: 18px;
+    overflow: hidden;
+    padding-top:25px;
+    padding-left: 20px;
+}
+#content .c-content .superbrand .super-pp span{
+	height: 16px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+}
+#content .c-content .superbrand .super-pp button{
+	width: 63px;
+    height: 23px;
+    border-radius: 200px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(33,33,33,0.1);
+    border:1px solid #eee;
+    cursor:pointer;
+    float: left;
+    margin-right: 35px;
+}
+#content .c-content .superbrand .super-pp button:hover{
+    border:0px;
+    background: #493188;
+}
+
+#content .c-content .superbrand .super-pp .pp-1{
+	width:60px;
+	height:60px;
+	border:10px solid #fff;
+	border-radius:0;
+	float: left;
+	margin-top:-55px;
+	margin-right: -10px;
+}
